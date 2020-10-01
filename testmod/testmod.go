@@ -7,5 +7,5 @@ import (
 // HolaTest is ...
 func HolaTest(name string) string {
 
-	return fmt.Sprintf("Hola, %s", name)
+	return fmt.Sprintf("Hola, %v !!", name)
 }
